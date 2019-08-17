@@ -27,7 +27,7 @@ plt.figure(figsize = (24, 16))
 sns.heatmap(df_train.corr().round(2), annot = True, cmap = 'Greens')
 ```
 
-![png](README\corr_heatmap.png)
+![png](README/corr_heatmap.png)
 
 * app_second_categories与positionType和sitesetID和advertiserID和appID和appPlatform具有强相关关系
 
