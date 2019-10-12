@@ -227,5 +227,5 @@ with tf.device('/gpu:0'):
                                        epsilon = 1e-8).minimize(loss)
 ```
 
-output: logloss is 0.15
+output: logloss is 0.015
 
